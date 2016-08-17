@@ -1,0 +1,223 @@
+﻿body 
+{
+    background:url(images/background1.jpeg) no-repeat top center;
+    margin:0;
+    padding:0;
+    font-family:Verdana, Sans-Serif;
+    font-size:9px;
+}
+
+#header
+{ 
+    text-align:center;
+    height:auto;
+    width:auto;
+}
+#top 
+{
+    height:100px;
+    background:url(images/Banner_P001.swf) no-repeat top center;
+    font-size:24px;
+    text-align:center;
+    line-height:68px;
+    color:#FFFFFF;
+    margin:50px 0 40px 0;
+    
+}
+.petit
+{
+    font-size:14px;
+}
+
+ #lien
+ {
+     width:804px;
+     margin:0 auto;
+ }
+ 
+#lien ul li
+{
+    list-style-type:none;
+    display:inline;
+    line-height:15px;
+    padding :10px;
+    font-weight:bold;
+}
+
+#lien ul li a{
+    font-size:small;
+    text-decoration:none;
+    color:White;
+    font-family:Verdana, Sans-Serif;
+    
+    }
+#lien ul li a:hover{
+ 
+    color:black;
+    
+    }
+
+ #conteneur
+ {
+     width:804px;
+     margin:0 auto;
+     background:url(images/conteneur.png)
+ }
+ 
+ #conteneur-menu
+ {
+     background:url(images/menu-haut.png) no-repeat top bottom left; 
+       height:40px;
+         position:relative;  
+ }
+ #menu 
+ {
+     position:absolute;
+ }
+  
+ #menu dl
+ {
+     height:40px;
+     padding:0;
+     margin:0;
+     display:block;
+     float:left;
+     }
+     
+      
+dt a
+ {
+     background-color:#81DAF5;
+     width:200px;
+     text-decoration:none;
+     display:block;
+     height:40px;
+     color:#FFFFFF;
+     line-height:40px;
+     text-align:center;
+     font-size: 20px;
+     border-top:solid 2px black;
+     border-right:solid 2px black;
+     border-bottom:solid 2px black;
+     border-left:solid 1px black;
+     cursor:pointer;
+     font-size:medium;
+     
+  
+ }
+ 
+ dd
+ {
+     display:block;
+     padding:0;
+     margin:0;
+     /* */
+  }
+
+dd ul
+{
+    margin:0; padding:0;
+    text-align:center;
+    list-style:none;
+    
+}
+dd ul li
+{
+    display:block;
+    margin:0; padding:0;
+  
+}
+dd ul li a 
+{
+     background:url(images/bleu-ciel.jpg);
+    color:White;
+    display:block;
+    text-decoration:none;
+    width:198px;
+    height:40px;
+    line-height:30px;
+    font-size:15px;
+    border-bottom:solid 1px black;
+    border-bottom:solid 1px black;
+    border-left:solid 1px black;
+    border-right:solid 1px black;
+   
+ }
+ dt a:hover
+ {
+     color:Black;
+ }
+ dd ul li a:hover 
+ {
+      background:url(images/bleu-ciel.jpg);
+      color:Black;
+      display:block;
+ }
+ dl dt:hover
+ {
+    background:url(images/bleu-ciel.jpg); 
+    color:Black;
+  }
+ dl dd 
+ {
+     display:none;
+     }
+ dl:hover dd
+ {
+     display:block;
+     }
+     
+ /*    Fin Menu     */
+ #conteneur-srction 
+ {
+     width:804px;
+     
+     margin:0 auto;
+     
+ }
+ #section 
+ {
+    width:760px;
+    height:auto;
+    background: url(images/background-white.jpg) repeat-y left;
+    padding: 10px 20px 10px 20px;
+    display:block;
+    border: 5px solid black;
+    border-radius:20px;
+     
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ /*footer*/
+
+footer h6 {
+    text-align:center;
+}
+
+
+footer  ul li {
+    list-style-type:none;
+    display:inline;
+    line-height:35px;
+    margin-left:55px;
+    padding:35px;
+    font-weight:bold;
+    
+    }
+
+footer ul li a{
+    font-size:small;
+    text-decoration:none;
+    color:White;
+    font-family:Verdana, Sans-Serif;
+    
+    }
+footer ul li a:hover{
+ 
+    color:black;
+    
+    }

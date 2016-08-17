@@ -1,0 +1,108 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Mon Site</title>
+    <link  href="StyleSheet.css" rel="Stylesheet" type="text/css"/>
+
+	            <asp:ContentPlaceHolder id="head" runat="server">
+	
+	
+                 </asp:ContentPlaceHolder>
+</head>
+<body>
+
+<div id="top" > 
+   <!--<img src="images/LibraryLogo.jpg" alt="logo"/>-->
+   <!-- Librairie <span class="petit">Un Peu Plus</span>-->
+   <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="804" height="100">
+<param name="movie" value="Banner_P001.swf">
+<param name="quality" value="high">
+<embed src="images/Banner_P001.swf" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="804" height="100"></embed>
+</object>
+    
+</div>
+
+<%--        <div id="lien">
+
+        <ul>
+            <li><a href="login.aspx" > Se connecter</a></li>
+     
+             <li><a href="inscription.aspx" > S'inscrire</a></li>
+
+        </ul>
+        
+    </div>--%>
+
+<div id="conteneur-menu">
+<div id="conteneur">
+    <div id= "menu">
+    <dl>
+            <dt> 
+               <a href="nouveaute.aspx"> Nouveautés</a> 
+            </dt>
+            
+     </dl>
+
+        <dl>
+            <dt> 
+               <a href="livres.aspx"> Livres</a>
+            </dt>
+            <dd>
+                <ul>
+                    <li> </li>
+                    <li> <a href="informatique.aspx"> Informatique</a></li>
+                    <li> <a href="affaires.aspx"> Affaires</a></li>
+                    <li> <a href="technologie.aspx"> Technologie</a></li>
+                    <li> <a href="livres.aspx"> tous les livres</a></li>
+                </ul>
+            </dd>
+        </dl>
+
+          <dl>
+            <dt> 
+               <a href="liens.aspx">Liens </a>
+            </dt> 
+     </dl>
+
+       <dl>
+            <dt> 
+               <a href="Cmd-login.aspx"> Commande</a>
+            </dt>  
+     </dl>
+
+     </div>
+    </div>
+</div>
+
+<br />
+<br />
+
+<!--Fin de header et Menu -->
+ <div id="conteneur-srction">
+        <div id="section">
+
+       
+			        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+			        </asp:ContentPlaceHolder>
+
+
+        </div>
+
+        <footer>
+
+        <h6>© Copyright 2014</h6>
+        <ul>
+            <li><a href="contactUs.aspx" > Nous contacter</a></li>
+             <li><a href="liens.aspx"> Autres liens</a></li>
+             <li><a href="aProposDeNous.aspx" > A propos de nous</a></li>
+
+        </ul>
+        
+    </footer>
+</div>
+</body>
+</html>
